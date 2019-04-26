@@ -217,7 +217,7 @@ h4 {
     border-radius: 7px;
     width: 130px;
     text-align: center;
-    padding-top: 8px;
+    padding-top: 12px;
     padding-bottom: 8px;
     margin-top: 10px;
 }
@@ -252,3 +252,6 @@ h4 {
     padding-right: 30px;
     padding-bottom: 30px;
 }
+
+/******** Blog **********/
+
