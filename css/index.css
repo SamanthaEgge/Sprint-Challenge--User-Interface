@@ -225,6 +225,21 @@ footer nav a:hover {
     padding-right: 0;
 }
 
+@media screen and (max-width: 600px) {
+    .top-content {
+        flex-direction: column;
+    }
+
+    .boxes {
+        flex-direction: column;
+    }
+
+    .bottom-content {
+        flex-direction: column;
+        max-width: 40%;
+    }
+}
+
 
 /******* About ********/
 h4 {
@@ -269,6 +284,20 @@ h4 {
     padding-bottom: 30px;
 }
 
+@media screen and (max-width: 600px) {
+    .about-top {
+        max-width: 40%;
+    }
+
+    .about-middle {
+        flex-direction: column;
+    }
+
+    .about-bottom {
+        max-width: 40%;
+    }
+}
+
 /******** Blog **********/
 .blog-title {
     margin-bottom: 10px;
@@ -298,7 +327,9 @@ h4 {
 .blog-postinfo img {
     display:block;
     border-radius: 15px;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
+    border-right: 3px solid #b21400;
+    border-bottom: 5px solid #b21400;
 }
 
 .blog-postcontent {
@@ -312,7 +343,7 @@ h4 {
 }
 
 h5 {
-    border-top: 1px dashed black;
+    border-top: 1px dashed #b21400;
     margin-top: 10px;
     text-decoration: none;
     color: black;
@@ -326,4 +357,15 @@ h5 {
 h5 a {
     text-decoration: none;
     color: black;
+}
+
+@media screen and (max-width: 600px) {
+    .blog-post {
+        flex-direction: column;
+        max-width: 50%;
+    }
+
+    .blog-postinfo img {
+        display: hidden;
+    }
 }
