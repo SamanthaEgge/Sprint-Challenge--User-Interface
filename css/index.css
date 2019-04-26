@@ -91,6 +91,19 @@ header nav a {
     padding-right: 35px;
 }
 
+header nav a:hover  {
+    color: #b21400;
+    -webkit-animation: navShadow 1s both;
+    animation-name: navShadow 1s both;
+}
+
+@keyframes navShadow {
+    0% {text-shadow: 0 0 #ccc9c9, 0 0 #ccc9c9, 0 0 #ccc9c9, 0 0 #ccc9c9;
+        transform: translateX(0);}
+    100% {text-shadow: 1px 0 #ccc9c9, 2px 0 #ccc9c9, 3px 0 #ccc9c9, 4px 0 #ccc9c9;
+        transform: translateX(-4px);}
+}
+
 footer {
     width: 100%;
     background: black;
@@ -110,6 +123,9 @@ footer nav a {
     text-decoration: none;
 }
 
+footer nav a:hover {
+    color: #b21400;
+}
 
 /***** Home Content *******/
 
