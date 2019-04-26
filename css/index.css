@@ -71,12 +71,54 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    margin-bottom: 30px;
+}
+
+header nav {
+
+}
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+footer {
+    width: 100%;
+    background: black;
+}
+
+footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+footer nav a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/***** Home Content *******/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin-top: 20px;
 }
 
 .top-content .text-container {
@@ -112,6 +154,46 @@ p {
     justify-content: center;
 }
 
+.middle-content .boxes .box:nth-child(1) {
+    background: teal;
+} 
+
+.middle-content .boxes .box:nth-child(2) {
+    background: gold;
+} 
+
+.middle-content .boxes .box:nth-child(3) {
+    background: cadetblue;
+} 
+
+.middle-content .boxes .box:nth-child(4) {
+    background: coral;
+} 
+
+.middle-content .boxes .box:nth-child(5) {
+    background: crimson;
+} 
+
+.middle-content .boxes .box:nth-child(6) {
+    background: forestgreen;
+} 
+
+.middle-content .boxes .box:nth-child(7) {
+    background: darkorchid;
+} 
+
+.middle-content .boxes .box:nth-child(8) {
+    background: hotpink;
+} 
+
+.middle-content .boxes .box:nth-child(9) {
+    background: indigo;
+} 
+
+.middle-content .boxes .box:nth-child(10) {
+    background: dodgerblue;
+} 
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -124,23 +206,4 @@ p {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
-}
-
-footer {
-    width: 100%;
-    background: black;
-}
-
-footer nav {
-    width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
-}
-
-footer nav a {
-    color: white;
-    text-decoration: none;
 }
