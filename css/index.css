@@ -76,6 +76,7 @@ header {
     flex-wrap: wrap;
     align-items: flex-end;
     margin-bottom: 30px;
+    margin-top: 20px;
 }
 
 header nav {
@@ -207,3 +208,14 @@ footer nav a {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+
+/******* About ********/
+.about-top {
+    border-bottom: 1px dashed black;
+    margin-bottom: 10 px;
+    padding: 20px;
+
+}
+
+.about-middle {}
